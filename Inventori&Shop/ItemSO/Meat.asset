@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b91705a55ef6324fa1dbf6629fab0f6, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  itemName: Meat
+  itemDescription: A fresh cut of meat. Best enjoyed cooked... preferably.
+  icon: {fileID: -1003252732417706655, guid: fd1c8873feacd3f44b3f107222df2fa2, type: 3}
+  isGold: 0
+  stackSize: 3
+  currentHealth: 5
+  maxHealth: 0
+  speed: 0
+  damage: 0
+  duration: 5

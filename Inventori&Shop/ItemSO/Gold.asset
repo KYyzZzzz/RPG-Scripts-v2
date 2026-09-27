@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b91705a55ef6324fa1dbf6629fab0f6, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  itemName: Gold
+  itemDescription: Shiny, heavy, and capable of solving 99% of your problems in this
+    world. Spend it wisely!
+  icon: {fileID: -7942359355602504142, guid: 8e2a99fd560d94e46b05e2d5491edb49, type: 3}
+  isGold: 1
+  stackSize: 3
+  currentHealth: 0
+  maxHealth: 0
+  speed: 0
+  damage: 0
+  duration: 0

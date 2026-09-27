@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b91705a55ef6324fa1dbf6629fab0f6, type: 3}
+  m_Name: Pumpkin
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  itemName: Pumpkin
+  itemDescription: Restores Health when eaten. Don't ask how you swallow a whole
+    pumpkin in one bite.
+  icon: {fileID: 8389134475083476877, guid: 55623899c994e2a48b58441f47111a15, type: 3}
+  isGold: 0
+  stackSize: 3
+  currentHealth: 3
+  maxHealth: 0
+  speed: 1
+  damage: 0
+  duration: 3
