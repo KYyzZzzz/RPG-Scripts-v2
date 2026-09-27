@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Menolak Mencari Andika
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Maaf Pak, saya ini petualang pembasmi monster, bukan penagih utang keliling.
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Aduh, dingin sekali hatimu! Membasmi monster memang keren, tapi kalau benteng
+      kota runtuh karena kekurangan dana pajak, monster yang akan balik membasmi
+      kita semua!
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Pikirkan lagi, ksatria. Kalau berubah pikiran dan mau sedikit koin emas,
+      temui aku lagi sebelum si Gilang kabur ke kandang goblin.
+  options: []
+  requiredNPCs: []
+  requiredLocations: []
+  requiredItems: []

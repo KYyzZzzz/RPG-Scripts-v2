@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Mengalah Ke Jamal
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Ya udah, kali ini aku nurut omonganmu.
+  - speaker: {fileID: 11400000, guid: b311f222570e45c43b669ac3874e7ef4, type: 2}
+    text: Tumben otakmu kepake. Mending sekarang kamu asah tuh pedang karatanmu sebelum
+      beneran berangkat.
+  options: []

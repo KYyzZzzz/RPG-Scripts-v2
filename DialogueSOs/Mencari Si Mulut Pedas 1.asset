@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Mencari Si Mulut Pedas 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Mar, urusan selesai. Saya sudah temukan Jamal di pinggir hutan tadi.
+  - speaker: {fileID: 11400000, guid: 639799653b8421743a763636542ca0ad, type: 2}
+    text: Syukurlah! Dia masih utuh kan, Sir? Tidak ada goblin yang tertekan gara-gara
+      celotehannya?
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Dia aman-aman saja, malah sedang asyik rebahan sambil menikmati angin segar.
+  - speaker: {fileID: 11400000, guid: 639799653b8421743a763636542ca0ad, type: 2}
+    text: Hahaha, dasar si Jamal. Terima kasih banyak ya, Sir Marjanus! Ternyata
+      zirah panci mengilapmu ini benar-benar bisa diandalkan.
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Sama-sama. Ingat, lain kali jangan jadikan ksatria sebagai kurir antar-jemput
+      temanmu lagi.
+  options: []
+  requiredNPCs:
+  - {fileID: 11400000, guid: b311f222570e45c43b669ac3874e7ef4, type: 2}
+  requiredLocations: []
+  requiredItems: []

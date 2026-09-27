@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Pajak agus 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Bagaimana petualang? Apakah kamu berhasil menangkap si pandai besi licin
+      itu?
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Beres, Pak. Andika sedang merapikan gulungan kasnya sambil berdoa agar
+      tidak disuruh menempa pakai sendok.
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Haha! Baguslah kalau akal sehatnya sudah kembali. Tanpa kontribusi warga,
+      kita bahkan tidak sanggup membeli ramuan obat untuk para ksatria.
+  options: []
+  requiredNPCs:
+  - {fileID: 11400000, guid: d24ae28fa3fd5a34a9163d7863be08d5, type: 2}
+  requiredLocations: []
+  requiredItems: []

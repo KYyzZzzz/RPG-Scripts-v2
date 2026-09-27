@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Fungsi Gulungan Pajak
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: fb085a33d691acc4381c2bb88139d98c, type: 2}
+    text: Kenapa harus ada gulungan laporan terpisah, Tuan? Apa bendahara kastil
+      hobi mengoleksi kertas?
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Haha, bukan! Gulungan resmi itu bukti transparansi agar tidak ada komandan
+      nakal yang menyulap dana kas jadi jamuan pesta anggur pribadi.
+  - speaker: {fileID: 11400000, guid: 9f36a98c5a30586408162d7112e88533, type: 2}
+    text: Tolong seret pemuda itu ke sini sebelum dia pura-pura pingsan di tumpukan
+      arang!
+  options: []
+  requiredNPCs: []
+  requiredLocations: []
+  requiredItems: []
