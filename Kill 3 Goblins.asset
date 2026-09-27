@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba269b75c256740499c2d0396eabef95, type: 3}
+  m_Name: Kill 3 Goblins
+  m_EditorClassIdentifier: Assembly-CSharp::QuestSO
+  questName: Pembuktian Pedang Karatan
+  questDescription: Buktikan zirah dan pedangmu bukan sekadar pajangan! Masuk ke
+    sarang dan habisi 3 goblin sebelum helmmu dijadikan mangkok soto.
+  questLevel: 1
+  objectives:
+  - description: Kill 3 Goblins
+    target: {fileID: 8777388641641696378, guid: f50a9601ae53ed240a195371501e51ef, type: 3}
+    requiredAmount: 3
+  rewards:
+  - itemSO: {fileID: 11400000, guid: 28c23e05be3c2ed408b91e9aa589c234, type: 2}
+    quantity: 5
+  - itemSO: {fileID: 11400000, guid: c96b46ea96520e44db5aa0b24e3c0997, type: 2}
+    quantity: 8
+  - itemSO: {fileID: 11400000, guid: 30ac74e8cafec8e4e9c9460c436bb1d5, type: 2}
+    quantity: 1

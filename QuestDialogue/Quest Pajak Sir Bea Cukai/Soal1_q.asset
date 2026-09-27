@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e171e0b70afc99e4bb9947d8c34d1efe, type: 3}
+  m_Name: Soal1_q
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 5b49d13ca41fac343b787024e247fde1, type: 2}
+    text: 'Woi, Petualang! Jangan main asal nyelonong masuk gerbang saja. Lihat ini,
+      kas istana kita lagi kosong melompong sampai laba-laba bikin sarang di dalam
+      brankas! Biar kamu sah jadi warga yang berguna dan boleh masuk, coba tebak
+      dulu: Sebenarnya apa sih pajak itu?'
+  options:
+  - optionText: Uang iuran wajib
+    nextDialogue: {fileID: 11400000, guid: 7c683a764ae4ec4438c93b7af217430b, type: 2}
+    offerQuest: {fileID: 0}
+  - optionText: Uang ikhlas seikhlasnya
+    nextDialogue: {fileID: 11400000, guid: 6eb4491258b1d0c4ab8e0b90f822ae64, type: 2}
+    offerQuest: {fileID: 0}
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestOnEnd: {fileID: 0}
+  requiredNPCs: []
+  requiredLocations: []
+  requiredItems: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []

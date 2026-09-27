@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba269b75c256740499c2d0396eabef95, type: 3}
+  m_Name: quest1 pajak sir beacukai
+  m_EditorClassIdentifier: Assembly-CSharp::QuestSO
+  questName: Ujian Sadar Pajak
+  questDescription: Bantu Sir Bea Cukai mengisi kas istana yang kosong dengan menjawab
+    4 pertanyaan seputar pajak. Tunjukkan bahwa kamu warga kerajaan yang cerdas!
+  questLevel: 0
+  objectives: []
+  rewards:
+  - itemSO: {fileID: 11400000, guid: 28c23e05be3c2ed408b91e9aa589c234, type: 2}
+    quantity: 5
