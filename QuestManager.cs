@@ -3,8 +3,30 @@ using UnityEngine;
 
 public class QuestManager : MonoBehaviour
 {
+    // BARU: pola singleton + DontDestroyOnLoad, PERSIS seperti InventoryManager.cs.
+    // Ini yang bikin progres quest (termasuk quest bunuh goblin di scene 2) tidak
+    // hilang saat pindah scene.
+    public static QuestManager Instance;
+
     private Dictionary<QuestSO, Dictionary<QuestObjective, int>> questProgress = new();
     private List<QuestSO> completedQuests = new();
+
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            // Sudah ada QuestManager lain yang persisten -> hancurkan duplikat ini
+            // (misal karena scene Goblin kebetulan juga punya GameObject QuestManager sendiri).
+            Destroy(gameObject);
+            return;
+        }
+    }
 
 
     private void OnEnable()
