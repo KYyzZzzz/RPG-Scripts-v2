@@ -24,8 +24,20 @@ public class QuestLogUI : MonoBehaviour
     [SerializeField] private CanvasGroup completeCanvasGroup;
 
 
+    private void Awake()
+    {
+        // BARU: fallback kalau referensi Inspector kosong/rusak (misal karena
+        // UI ini dibuat ulang di scene yang berbeda dari QuestManager persisten-nya).
+        if (questManager == null)
+            questManager = QuestManager.Instance;
+    }
+
+
     private void OnEnable()
     {
+        if (questManager == null)
+            questManager = QuestManager.Instance;
+
         QuestEvents.OnQuestOfferRequested += ShowQuestOffer;
         QuestEvents.OnQuestTurnInRequested += ShowQuestTurnIn;
     }
@@ -59,6 +71,7 @@ public class QuestLogUI : MonoBehaviour
         HandleQuestClicked(questSO);
         SetCanvasState(questCanvas, true);
     }
+
 
 
 
